@@ -4,13 +4,12 @@
   "description": "Google maps container",
   "author": "Fullstack.io <us@fullstack.io>",
   "license": "MIT",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "options": {
     "mocha": "--require scripts/mocha_runner -t rewireify src/**/__tests__/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/velezhanski/google-maps-react-velez.git"
+    "url": "git+https://github.com/velezhanski/google-maps-react-velez.git"
   },
   "main": "dist/index.js",
   "files": [
@@ -83,5 +82,12 @@
     "react": "~0.14.8 || ^15.0.0 || ^16.0.0",
     "react-dom": "~0.14.8 || ^15.0.0 || ^16.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/velezhanski/google-maps-react-velez/issues"
+  },
+  "homepage": "https://github.com/velezhanski/google-maps-react-velez#readme",
+  "directories": {
+    "example": "examples"
+  }
 }
