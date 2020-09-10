@@ -23,7 +23,7 @@ class Container extends Component {
     return (
       <div className={styles.container}>
         <GitHubForkRibbon
-          href="//github.com/fullstackreact/google-maps-react"
+          href="//github.com/velezhanski/google-maps-react-velez"
           position="right"
           target="_blank"
         >
@@ -46,7 +46,7 @@ class Container extends Component {
               <h1>{routeDef && routeDef.name} Example</h1>
 
               <h2>
-                <a href="https://github.com/fullstackreact/google-maps-react/blob/master/README.md">
+                <a href="https://github.com/velezhanski/google-maps-react-velez/blob/master/README.md">
                   Readme
                 </a>
               </h2>

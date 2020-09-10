@@ -2,7 +2,7 @@
   <img src="resources/readme/fullstackreact-google-maps-tutorial.png" alt="Fullstack React Google Maps Tutorial" />
 </p>
 
-# Google Map React Component Tutorial [![Dolpins](https://cdn.rawgit.com/fullstackreact/google-maps-react/master/resources/readme/dolphins-badge-ff00ff.svg)](https://www.fullstackreact.com)
+# Google Map React Component Tutorial [![Dolpins](https://cdn.rawgit.com/velezhanski/google-maps-react-velez/master/resources/readme/dolphins-badge-ff00ff.svg)](https://www.fullstackreact.com)
 
 > A declarative Google Map React component using React, lazy-loading dependencies, current-location finder and a test-driven approach by the [Fullstack React](https://fullstackreact.com) team.
 
@@ -17,7 +17,7 @@ npm install --save google-maps-react
 ```
 ## Automatically Lazy-loading Google API
 
-The library includes a helper to wrap around the Google maps API. The `GoogleApiWrapper` Higher-Order component accepts a configuration object which *must* include an `apiKey`. See [lib/GoogleApi.js](https://github.com/fullstackreact/google-maps-react/blob/master/src/lib/GoogleApi.js#L4) for all options it accepts.
+The library includes a helper to wrap around the Google maps API. The `GoogleApiWrapper` Higher-Order component accepts a configuration object which *must* include an `apiKey`. See [lib/GoogleApi.js](https://github.com/velezhanski/google-maps-react-velez/blob/master/src/lib/GoogleApi.js#L4) for all options it accepts.
 
 ```javascript
 import {GoogleApiWrapper} from 'google-maps-react';
@@ -606,7 +606,7 @@ An example template might look like: [https://codesandbox.io/s/rzwrk2854](https:
 ## Contributing
 
 ```shell
-git clone https://github.com/fullstackreact/google-maps-react.git
+git clone https://github.com/velezhanski/google-maps-react-velez.git
 cd google-maps-react
 npm install
 make dev
